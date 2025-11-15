@@ -1,1 +1,416 @@
-<!doctype html><title>Coming Soon</title>Hello, world — coming soon.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXWTRSN44Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-VXWTRSN44Y');
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>EV3DGS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bulma-slider.min.css">
+
+    <link rel="ict-labs-icon" sizes="180x180" href="assets/media/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/media/logo.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <meta property="og:site_name" content="3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses" />
+    <meta property="og:type" content="video.other" />
+    <meta property="og:title" content="3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses" />
+    <meta property="og:description" content="3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses, 2025." />
+
+    <script src="assets/js/video_comparison.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@2.0.1/dist/model-viewer.min.js"></script>
+    <script src="assets/js/bulma-carousel.min.js"></script>
+    <script src="assets/js/bulma-slider.min.js"></script>
+
+    <style>
+        /* 1. Fluid aspect-ratio “before/after” container */
+        .small-bal-container {
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 560 / 322;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .small-bal-container img,
+        .small-bal-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* 2. Custom carousel arrow tweaks */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid white;
+        }
+        .carousel-control-prev-icon::after,
+        .carousel-control-next-icon::after {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border: solid white;
+        }
+        .carousel-control-prev-icon::after {
+            border-width: 0 4px 4px 0;
+            transform: rotate(135deg);
+            margin-left: -3px;
+        }
+        .carousel-control-next-icon::after {
+            border-width: 0 4px 4px 0;
+            transform: rotate(-45deg);
+            margin-right: -3px;
+        }
+
+        /* 3. Minor tweaks on very small screens */
+        @media (max-width: 575.98px) {
+            body {
+                font-size: 0.9rem;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            .author-container h6 {
+                font-size: 0.85rem;
+            }
+            .container,
+            .container-fluid {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="highlight-clean pb-3">
+        <div class="container-fluid mb-3">
+            <h1 class="text-center mb-2 font-weight-bold">Extreme Views:</h1>
+            <h1 class="text-center mb-2 font-weight-bold">3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses</h1>
+            <h2 class="text-center font-weight-bold"; style="color: #007bff; margin-bottom: 5px;">20th International Symposium on Visual Computing (ISVC) 2025</h2>
+        </div>
+
+        <!-- Centered author section -->
+        <div class="container author-container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-auto mb-2 text-center">
+                    <h6>
+                        <a href="https://damian-bowness.github.io" target="_blank">
+                            <strong>Damian Bowness</strong>
+                        </a>
+                    </h6>
+                </div>
+                <div class="col-auto mb-2 text-center">
+                    <h6>
+                        <a href="https://scholar.google.com/citations?user=IhcdDa8AAAAJ&hl=en">
+                            <strong>Charalambos Poullis</strong>
+                        </a>
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-2">
+                <div class="col-auto text-center">
+                    <h6>Concordia University</h6>
+                </div>
+            </div>
+        </div>
+        <!-- End author section -->
+    </div>
+
+    <div class="container align-items-center">
+        <div class="row text-center justify-content-center">
+            <div class="col-6 col-sm-3 mb-3">
+                <a href="https://arxiv.org/abs/2510.20027" target="_blank" class="link-block w-inline-block">
+                    <img src="assets/media/arxiv_paper.png" alt="paper" class="img-fluid" style="height:60px" />
+                </a>
+                <br>
+                <div class="text-block-2"><strong class="bold-text-nerf_v2">Arxiv</strong></div>
+            </div>
+            <div class="col-6 col-sm-3 mb-3">
+                <a href="https://github.com/damian-bowness/EV3DGS/tree/main/src" target="_blank" class="link-block w-inline-block">
+                    <img src="assets/media/github.png" alt="github" class="img-fluid" style="height:60px" />
+                </a>
+                <br>
+                <div class="text-block-2"><strong class="bold-text-nerf_v2">Code coming soon</strong></div>
+            </div>
+        </div>
+    </div>
+
+        <hr class="divider" />
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="font-weight-bold">Abstract</h2>
+                    <p class="text-justify">
+                    3D Gaussian Splatting (3DGS) has become a popular approach for real-time 3D reconstruction and novel view synthesis, representing scenes as clouds of anisotropic Gaussian primitives optimized from posed training images. While this works well for views close to the training cameras, users often navigate far beyond these trajectories, exposing regions of space that are under constrained by the original data. Augmenting the training pipeline can make 3DGS models more robust to such out-of-distribution (OOD) viewpoints, but it cannot eliminate OOD artifacts: the model can only learn what is supported by the training cameras, so unseen regions of space remain under-constrained and free to hallucinate unstable, visually noisy artifacts. In this work, we treat these hallucinations as a render-time problem rather than a training-time deficiency. We introduce a view-conditioned, gradient-based filter that actively detects and suppresses unstable, high-sensitivity Gaussians in under-constrained regions before they manifest as visible artifacts. Our method derives per-intersection sensitivity scores from intermediate gradients; instead of relying on orientation-agnostic criteria (e.g., thresholds on overall variance or size), these scores are view-conditioned and sensitive to how anisotropic Gaussians are oriented relative to the camera. They then drive a lightweight rejection step that prunes hallucination-prone Gaussians on a per-view basis.  Across challenging OOD camera trajectories, our approach substantially improves visual quality, realism, and temporal consistency, and it does so as a drop-in, real-time module requiring no retraining or offline fine-tuning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="divider" />
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example1" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/dj_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/dj_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example2" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/playroom_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/playroom_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider" />
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="font-weight-bold">Methodology</h2>
+                <p class="text-justify">
+                    At render time, we apply a two-pass filtering pipeline that leverages intermediate gradients to identify unstable 3D Gaussians during ray-marched rendering. 
+                </p>
+                <p class="text-justify">
+                    In the first pass, we compute the intermediate gradient magnitude for every ray–Gaussian intersection.  Whenever this value exceeds a gradient sensitivity threshold, \(\gamma\), we increment a rejection count for the corresponding Gaussian while also tracking its total number of intersections. 
+                </p>
+                <p class="text-justify">
+                    In the second pass, we derive a per-Gaussian sensitivity score as the ratio between rejected and total intersections. If this score exceeds a ratio threshold, \(\tau\), the Gaussian is excluded from the render loop for the current viewpoint.  This ensures only Gaussians with sufficiently low intermediate gradients (i.e., stable contributions) participate in the composition of the final image. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" autoplay muted loop playsinline>
+                        <source src="assets/video/fig_anim.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider" />
+    <div class="container mb-4">
+        <h2 class="font-weight-bold">More Visual Results</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example3" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/creepy_attic_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/creepy_attic_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example4" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/facade_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/facade_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example5" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/garden_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/garden_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div id="example6" class="small-bal-container">
+                    <div class="bal-wrapper">
+                        <div class="bal-after">
+                            <video src="assets/video/shed_filt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                            <div class="bal-afterPosition afterLabel">EV3DGS (Ours)</div>
+                        </div>
+                        <div class="bal-before">
+                            <div class="bal-before-inset">
+                                <video src="assets/video/shed_nofilt.mp4" autoplay loop muted playsinline class="img-fluid"></video>
+                                <div class="bal-beforePosition beforeLabel">3DGS</div>
+                            </div>
+                        </div>
+                        <div class="bal-handle">
+                            <span class="handle-left-arrow"></span>
+                            <span class="handle-right-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <hr class="divider" />
+        <h2 class="font-weight-bold">Citation</h2>
+        <code>
+            @article{EV3DGS25,<br>
+            &nbsp;&nbsp;title = {Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses},<br>
+            &nbsp;&nbsp;author = {Bowness, Damian and Poullis, Charalambos},<br>
+            &nbsp;&nbsp;journal = {arXiv},<br>
+            &nbsp;&nbsp;year = {2025},<br>
+            }
+        </code>
+    </div>
+
+    <hr class="divider" />
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="assets/videos/nerfies_paper.pdf">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                                Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                        <p>
+                            This website is based on this <a href="https://github.com/nerfies/nerfies.github.io">source code</a> and this <a href="https://trianglesplatting.github.io/">source code</a>. We sincerely appreciate these authors for their awesome
+                            templates.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=IntersectionObserver"></script>
+    <script src="assets/js/yall.js"></script>
+    <script>
+        yall({ observeChanges: true });
+    </script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/js/webflow.fd002feec.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var video = document.getElementById('speed025');
+            if (video) {
+                video.playbackRate = 0.1;
+            }
+        });
+    </script>
+
+    <script>
+        new BeforeAfter({ id: '#example1' });
+        new BeforeAfter({ id: '#example2' });
+        new BeforeAfter({ id: '#example3' });
+        new BeforeAfter({ id: '#example4' });
+        new BeforeAfter({ id: '#example5' });
+        new BeforeAfter({ id: '#example6' });
+    </script>
+</body>
+
+</html>
