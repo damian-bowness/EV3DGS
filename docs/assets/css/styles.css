@@ -975,3 +975,22 @@ position: absolute;
 left: 50%;
 margin-left: -1.5px;
 }
+
+.link-space{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.link-button{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link-hover:hover{
+    background-color: rgb(233, 233, 233);
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 200ms ease, color 200ms ease, transform 200ms ease;
+}
