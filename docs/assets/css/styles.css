@@ -976,19 +976,14 @@ left: 50%;
 margin-left: -1.5px;
 }
 
-.link-space{
-    margin-right: 60px;
-    margin-left: 60px;
-}
-
 .link-button{
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .link-hover:hover{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
     color: #007bff;
     font-weight: bold;
     text-decoration: none;
