@@ -1,0 +1,25 @@
+[build-system]
+# These are needed to execute setup.py under PEP 517
+requires = [
+  "setuptools>=64",
+  "wheel",
+  "pybind11>=2.10"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EV3DGS"
+version = "0.0.0"
+description = "CUDA-accelerated ray splat renderer (PyTorch extension)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Damian Bowness" }]
+license = { file = "LICENSE.md" }
+dependencies = []  # runtime deps (if any)
+
+[tool.setuptools]
+packages = ["ev3dgs", "ev3dgs.scripts"]
+
+[project.scripts]
+ev3dgs = "ev3dgs.scripts.run_ev3dgs:entrypoint"
+ev3dgs-render = "ev3dgs.scripts.render_ev3dgs:entrypoint"
