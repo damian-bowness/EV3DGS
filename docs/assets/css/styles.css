@@ -977,15 +977,54 @@ margin-left: -1.5px;
 }
 
 .link-button{
-    padding-top: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 45px 0px 45px; /* 10px 14 px */
+  margin: 0 8px;
+
+  border: 1px solid transparent; /* reserves space */
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  size: 20px;
+}
+.link-button.link-hover:hover{
+  background: rgb(240,240,240);
+  border-color: #e0e0e0;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.link-hover:hover{
-    background-color: rgb(240, 240, 240);
-    color: #007bff;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 200ms ease, color 200ms ease, transform 200ms ease;
+.font-size-twenty {
+  font-size: 20px;
+}
+
+code.bibtex {
+  font-size: 16px;      /* or 1rem */
+  line-height: 1.4;
+  display: block;          /* so background covers the whole block */
+  background: #f2f2f2;     /* light grey */
+  padding: 12px 16px;
+}
+
+.citation-title{
+  text-align: left;
+}
+
+.author-link{
+  font-size: 20px;
+  text-decoration: none;
+}
+.author-link:hover{
+  text-decoration: underline;
+}
+
+.author-row{
+  gap: 24px;
+  row-gap: 8px;   /* when it wraps */
 }

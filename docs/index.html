@@ -111,51 +111,41 @@
 
 <body>
     <div class="highlight-clean pb-3">
+        <!-- Title and Conference Section -->
         <div class="container-fluid mb-3">
             <h1 class="text-center mb-2 font-weight-bold">Extreme Views:</h1>
             <h1 class="text-center mb-2 font-weight-bold">3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses</h1>
             <h2 class="text-center font-weight-bold"; style="color: #007bff; margin-bottom: 5px;">20th International Symposium on Visual Computing (ISVC) 2025</h2>
         </div>
 
-        <!-- Centered author section -->
-        <div class="container author-container mt-4">
-            <div class="row justify-content-center">
-                <div class="col-auto mb-2 text-center">
-                    <h6>
-                        <a href="https://damian-bowness.github.io" target="_blank">
-                            <strong>Damian Bowness</strong>
-                        </a>
-                    </h6>
-                </div>
-                <div class="col-auto mb-2 text-center">
-                    <h6>
-                        <a href="https://scholar.google.com/citations?user=IhcdDa8AAAAJ&hl=en">
-                            <strong>Charalambos Poullis</strong>
-                        </a>
-                    </h6>
-                </div>
-            </div>
-
-            <div class="row justify-content-center mt-2">
-                <div class="col-auto text-center">
-                    <h6>Concordia University</h6>
-                </div>
-            </div>
+        <!-- Authors -->
+        <div class="d-flex justify-content-center flex-wrap gap-3 author-row mb-2">
+            <a class="author-link" href="https://damian-bowness.github.io" target="_blank" rel="noopener">
+              <strong>Damian Bowness</strong>
+            </a>
+            <a class="author-link" href="https://scholar.google.com/citations?user=IhcdDa8AAAAJ&hl=en" target="_blank" rel="noopener">
+              <strong>Charalambos Poullis</strong>
+            </a>
         </div>
-        <!-- End author section -->
+        <!-- Affiliation -->
+        <div class="d-flex justify-content-center">
+            <div class="h5 mb-0">Concordia University</div>
+        </div>
     </div>
+  </section>
+</body>
+
 
     <div class="container align-items-center">
         <div class="row text-center justify-content-center">
             <!-- arXiv link -->
                 <a href="https://arxiv.org/abs/2510.20027" target="_blank" class="link-button link-hover">
                     <img src="assets/media/arxiv.png" alt="paper" class="img-fluid" style="height:60px" />
-                    <br/>arXiv
+                    arXiv
                 </a>
             <!-- GitHub link -->
                 <a href="https://github.com/damian-bowness/EV3DGS/tree/main/src" target="_blank" class="link-button link-hover">
                     <img src="assets/media/github.png" alt="github" class="img-fluid" style="height:60px" />
-                    <br>
                 <div class="text-block-2"><strong class="bold-text-nerf_v2">Code</strong></div>
                 </a>
         </div>
@@ -339,8 +329,8 @@
 
     <div class="container mb-4">
         <hr class="divider" />
-        <h2 class="font-weight-bold">Citation</h2>
-        <code>
+        <h2 class="font-weight-bold citation-title">BibTex</h2>
+        <code class="bibtex">
             @article{EV3DGS25,<br>
             &nbsp;&nbsp;title = {Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses},<br>
             &nbsp;&nbsp;author = {Bowness, Damian and Poullis, Charalambos},<br>
