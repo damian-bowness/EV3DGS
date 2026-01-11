@@ -16,16 +16,12 @@ Concordia University
 </div>
 
 <div align="center">
-  <img src="readme_assets/drjohnson_split.gif" width="640" alt="Comparison GIF">
-  <br>
-  <table width="640">
-    <tr>
-      <td width="100"></td>
-      <td align="left"><b>3DGS</b></td>
-      <td align="right"><b>EV3DGS (ours)</b></td>
-      <td width="80"></td>
-    </tr>
-  </table>
+  <img src="readme_assets/drjohnson_split.gif" height="400" alt="Comparison GIF">
+  <div style="width:400px; display:flex; justify-content:space-between; margin-top:6px;">
+    <b>3DGS</b>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b>EV3DGS (ours)</b>
+  </div>
 </div>
 
 
